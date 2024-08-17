@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east,part=foot": {
+      "model": "catridge:block/catridge_surgery_table",
+      "y": 90
+    },
+    "facing=north,part=foot": {
+      "model": "catridge:block/catridge_surgery_table"
+    },
+    "facing=south,part=foot": {
+      "model": "catridge:block/catridge_surgery_table",
+      "y": 180
+    },
+    "facing=west,part=foot": {
+      "model": "catridge:block/catridge_surgery_table",
+      "y": 270
+    },
+    "part=head": {
+      "model": "catridge:block/catridge_surgery_table_head"
+    }
+  }
+}

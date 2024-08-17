@@ -105,11 +105,18 @@ repositories {
         url = 'https://thedarkcolour.github.io/KotlinForForge/'
         content { includeGroup "thedarkcolour" }
     }
+
+    maven {
+        name = "OctoStudios"
+        url = uri("https://maven.octo-studios.com/releases")
+    }
 }
 
 dependencies {
     // Must use the '-neoforge' version on NeoForge. If on regular forge, omit the '-neoforge'
     implementation 'thedarkcolour:kotlinforforge-neoforge:5.4.0'
+
+    implementation 'top.theillusivec4.curios:curios-neoforge:9.0.5+1.21'
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
